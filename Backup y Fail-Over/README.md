@@ -52,3 +52,19 @@ el contenido de la base de datos distribuidos se ha podido recuperar satisfactor
 
 ![6](https://user-images.githubusercontent.com/22055735/33243463-7cada978-d2c5-11e7-9e36-ca47b5207378.png)
 
+Finalmente como se puede observar el backup puede ser realizado a través de un solo comando, por lo cual
+utilizando cron el cual es un ejecutador de tarea en segundo plano, se puede configurar que este comando
+de backup sea ejecutado a ciertas horas, días, meses, etc.
+
+![cron](https://user-images.githubusercontent.com/22055735/33244084-b8590f9e-d2cf-11e7-9fda-00595a634eac.jpg)
+
+Donde ejecutando el comando "crontab -e" se abre la lista para configurar comandos por el usuario, y a
+continuación se configura la ejecución cada 1 min.
+
+![9](https://user-images.githubusercontent.com/22055735/33244090-cce8812e-d2cf-11e7-9e27-eaffe17c753f.png)
+
+Y ahora esperando unos minutos para observar resultados:
+
+![10](https://user-images.githubusercontent.com/22055735/33244091-cd1f0898-d2cf-11e7-8277-f65b822e4ef7.png)
+
+
